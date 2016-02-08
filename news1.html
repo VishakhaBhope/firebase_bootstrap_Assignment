@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="CSS/index.css">
+<script src="Script/validation.js"></script>
+<script src="Script/firebaseNewsPage.js"></script>
+</head>
+<body>
+
+<header class="text-center">  
+    <h1><b>Sears Holdings</b></h1>
+	<h1><b>India</b></h1>
+	</header>
+
+<section  id="hash1" class="mid newsContent"></section>
+
+
+<footer class="container-fluid">
+<Section class="row">
+<section class="col-md-5">
+<h3><i class="fa fa-home"></i> Corporate Office</h3>
+<p><b>SEARS IT and Management Services India</b></p>
+<p>EON Free Zone, Cluster C,Wing 2, 7th Floor,</p>
+<p>MIDC Kharadi Knowledge Park,Pune 411 014.</p>
+<p><i class="fa fa-phone"></i> 020-67308500</p>
+<p><i class="fa fa-envelope"></i> shi.communications@searshc.com</p>
+</section>
+
+<section class="col-md-7">
+<h2>Contact Us</h2>
+<p>Fields marked with * are required</p>
+<form name="myform">
+  <div class="form-group">
+    <label>Name*:</label>
+    <input type="text" name="name" class="form-control" placeholder="Enter your name">
+  </div>
+  <div class="form-group">
+    <label>Email address*:</label>
+    <input type="email" name="email" class="form-control" placeholder="Enter your email id">
+  </div>
+  <div class="form-group">
+    <label>Message*:</label>
+    <input type="text" name="message" class="form-control" placeholder="Enter your message">
+  </div>
+  <button type="submit" onclick="validateform();" class="btn btn-default">Submit</button>
+</form>
+</section>
+
+</section>
+</footer>
+
+</body>
+</html>

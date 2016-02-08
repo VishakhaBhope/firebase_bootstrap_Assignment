@@ -1,0 +1,26 @@
+header, footer{
+color:white;
+background-color:#3C3D34;
+}
+.trunc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mid{
+background-color:#D3BCE7;
+text-align:justify;
+}
+.newsContent{
+padding:15px;
+margin-bottom:10px;
+}
+.image{
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+display:block;
+}
+.f{
+padding:10px;
+}
