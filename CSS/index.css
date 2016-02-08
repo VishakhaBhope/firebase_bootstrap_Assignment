@@ -2,13 +2,7 @@ header, footer{
 color:white;
 background-color:#3C3D34;
 }
-.trunc {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .mid{
-background-color:#D3BCE7;
 text-align:justify;
 }
 .newsContent{
@@ -18,9 +12,10 @@ margin-bottom:10px;
 .image{
 margin-left:auto;
 margin-right:auto;
-margin-bottom:10px;
+margin-bottom:30px;
 display:block;
 }
-.f{
-padding:10px;
+.space{
+padding-top:25px;
+padding-bottom:25px;
 }
